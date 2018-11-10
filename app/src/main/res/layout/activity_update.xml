@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.nearur.roomrent.Update">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="6dp"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Update"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageUpdate"
+        android:tooltipText="Image"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Permanent Address"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextdaterent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date Today"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextmembersothers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Other Persons" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextaadhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Aadhar Number" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextrent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Rent" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/buttonsubmit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Submit" />
+</LinearLayout>
+</ScrollView>
